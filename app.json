@@ -1,0 +1,19 @@
+{
+  "entryPagePath": "pages/index/index",
+  "pages": [
+    "pages/index/index",
+    "pages/agriculture/index",
+    "pages/lighting/index",
+    "pages/robot/index",
+    "pages/machine/index"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#F1F3F5",
+    "backgroundTextStyle": "light"
+  },
+  "lazyCodeLoading": "requiredComponents",
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

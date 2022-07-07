@@ -1,0 +1,42 @@
+/* pages/robot/index.wxss */
+.wrapper {
+  align-self: stretch;
+  background-color: #FFFFFF;
+}
+
+.cell {
+  display: flex;
+  padding: 20rpx 40rpx;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--gray2);
+}
+
+.cell>view:last-of-type {
+  color: var(--ui-primary);
+}
+
+.chart-title {
+  margin-top: 40rpx;
+}
+
+.chart-title>text:first-of-type {
+  color: var(--gray9);
+  font-weight: 600;
+  padding: 0 40rpx;
+}
+
+.chart-title>text:last-of-type {
+  color: var(--gray6);
+  font-size: 12px;
+}
+
+.chart {
+  width: 100%;
+  height: 600rpx;
+}
+
+.action {
+  display: flex;
+  gap: 40rpx
+}

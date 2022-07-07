@@ -1,0 +1,17 @@
+/**app.wxss**/
+page {
+  --ui-primary: #7950F2;
+  --ui-primary-transparent: #7950F280;
+  --gray9: #212529;
+  --gray6: #868E96;
+  --gray2: #E9ECEF;
+  background-color: #F1F3F5;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  padding-bottom: 200rpx;
+}
