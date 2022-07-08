@@ -44,7 +44,7 @@
     "useCompilerPlugins": false
   },
   "compileType": "miniprogram",
-  "libVersion": "2.24.7",
+  "libVersion": "2.23.4",
   "appid": "",
   "projectname": "qiuhuo-tjjm",
   "condition": {},
