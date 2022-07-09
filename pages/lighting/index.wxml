@@ -34,20 +34,20 @@
     <text>单位：V</text>
   </view>
   <view class="chart">
-    <qiun-wx-ucharts type="line" opts="{{opts}}" chartData="{{uChart}}" />
+    <qiun-wx-ucharts type="line" animation="{{false}}" opts="{{opts}}" chartData="{{uChart}}" />
   </view>
   <view class="chart-title">
     <text>电流</text>
     <text>单位：A</text>
   </view>
   <view class="chart">
-    <qiun-wx-ucharts type="line" opts="{{opts}}" chartData="{{iChart}}" />
+    <qiun-wx-ucharts type="line" animation="{{false}}" opts="{{opts}}" chartData="{{iChart}}" />
   </view>
   <view class="chart-title">
     <text>电能</text>
     <text>单位：kWh</text>
   </view>
   <view class="chart">
-    <qiun-wx-ucharts type="line" opts="{{opts}}" chartData="{{epChart}}" />
+    <qiun-wx-ucharts type="line" animation="{{false}}" opts="{{opts}}" chartData="{{epChart}}" />
   </view>
 </view>

@@ -9,7 +9,7 @@ Page({
     iChart: {},
     epChart: {},
     opts: {
-      // dataLabel: false,
+      dataLabel: false,
       xAxis: { disableGrid: true },
       yAxis: { gridType: 'dash' }
     }

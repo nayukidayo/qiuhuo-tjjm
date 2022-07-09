@@ -34,13 +34,13 @@
     <text>单位：%</text>
   </view>
   <view class="chart">
-    <qiun-wx-ucharts type="line" opts="{{opts}}" chartData="{{hChart}}" />
+    <qiun-wx-ucharts type="line" animation="{{false}}" opts="{{opts}}" chartData="{{hChart}}" />
   </view>
   <view class="chart-title">
     <text>空气温度</text>
     <text>单位：℃</text>
   </view>
   <view class="chart">
-    <qiun-wx-ucharts type="line" opts="{{opts}}" chartData="{{tChart}}" />
+    <qiun-wx-ucharts type="line" animation="{{false}}" opts="{{opts}}" chartData="{{tChart}}" />
   </view>
 </view>
