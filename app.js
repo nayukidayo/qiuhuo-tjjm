@@ -13,6 +13,6 @@ App({
     console.log(msg)
   },
   globalData: {
-    server: 'test.nayuki.top'
+    server: 'tjjm.dev.scraino.tech'
   }
 })

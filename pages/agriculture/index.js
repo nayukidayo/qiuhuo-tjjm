@@ -51,11 +51,11 @@ Page({
   },
 
   handleStateOn() {
-    this.handleState('on')
+    this.handleState('nyon')
   },
 
   handleStateOff() {
-    this.handleState('off')
+    this.handleState('nyoff')
   },
 
   handleState(action) {

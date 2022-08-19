@@ -1,183 +1,207 @@
 const machine = [
   {
-    time: '08:30',
+    time: 1660911399815,
     data: {
-      Ua: 10.89,
-      Ub: 12.33,
-      Uc: 12.09,
-      Ia: 1.22,
-      Ib: 1.34,
-      Ic: 2.08,
-      P: 20.34,
-      EP: 33.45,
-      Hz: 50.02
-    }
+      Ic: 0.044338904321194,
+      P: 15.714511871338,
+      Ia: 0.043278999626637,
+      Ep: 18.715000152588,
+      Device_ID: '862289058373701',
+      YIN: 0.83564937114716,
+      Hz: 49.97102355957,
+      Uc: 236.36488342285,
+      Ub: 236.21070861816,
+      Ua: 236.98310852051,
+      Ib: 0.0068701985292137,
+    },
   },
   {
-    time: '08:34',
+    time: 1660911399815,
     data: {
-      Ua: 11.89,
-      Ub: 14.33,
-      Uc: 10.09,
-      Ia: 1.42,
-      Ib: 1.14,
-      Ic: 2.28,
-      P: 20.34,
-      EP: 35.45,
-      Hz: 50.02
-    }
+      Ic: 0.044338904321194,
+      P: 15.714511871338,
+      Ia: 0.043278999626637,
+      Ep: 18.715000152588,
+      Device_ID: '862289058373701',
+      YIN: 0.83564937114716,
+      Hz: 49.97102355957,
+      Uc: 236.36488342285,
+      Ub: 236.21070861816,
+      Ua: 236.98310852051,
+      Ib: 0.0068701985292137,
+    },
   },
   {
-    time: '08:37',
+    time: 1660911399815,
     data: {
-      Ua: 9.89,
-      Ub: 11.33,
-      Uc: 13.09,
-      Ia: 1.52,
-      Ib: 1.04,
-      Ic: 2.38,
-      P: 24.34,
-      EP: 40.45,
-      Hz: 50.22
-    }
+      Ic: 0.044338904321194,
+      P: 15.714511871338,
+      Ia: 0.043278999626637,
+      Ep: 18.715000152588,
+      Device_ID: '862289058373701',
+      YIN: 0.83564937114716,
+      Hz: 49.97102355957,
+      Uc: 236.36488342285,
+      Ub: 236.21070861816,
+      Ua: 236.98310852051,
+      Ib: 0.0068701985292137,
+    },
   },
   {
-    time: '08:40',
+    time: 1660911399815,
     data: {
-      Ua: 11.89,
-      Ub: 10.33,
-      Uc: 10.09,
-      Ia: 2.02,
-      Ib: 1.74,
-      Ic: 2.08,
-      P: 22.34,
-      EP: 44.45,
-      Hz: 49.92
-    }
+      Ic: 0.044338904321194,
+      P: 15.714511871338,
+      Ia: 0.043278999626637,
+      Ep: 18.715000152588,
+      Device_ID: '862289058373701',
+      YIN: 0.83564937114716,
+      Hz: 49.97102355957,
+      Uc: 236.36488342285,
+      Ub: 236.21070861816,
+      Ua: 236.98310852051,
+      Ib: 0.0068701985292137,
+    },
   },
   {
-    time: '08:43',
+    time: 1660911399815,
     data: {
-      Ua: 13.89,
-      Ub: 12.33,
-      Uc: 9.09,
-      Ia: 2.22,
-      Ib: 1.54,
-      Ic: 1.38,
-      P: 19.34,
-      EP: 46.45,
-      Hz: 50.02
-    }
-  }
+      Ic: 0.044338904321194,
+      P: 15.714511871338,
+      Ia: 0.043278999626637,
+      Ep: 18.715000152588,
+      Device_ID: '862289058373701',
+      YIN: 0.83564937114716,
+      Hz: 49.97102355957,
+      Uc: 236.36488342285,
+      Ub: 236.21070861816,
+      Ua: 236.98310852051,
+      Ib: 0.0068701985292137,
+    },
+  },
 ]
 const robot = [
   {
-    time: '08:30',
+    time: 1660911399815,
     data: {
-      U: 10.89,
-      I: 1.22,
-      P: 20.34,
-      EP: 33.45,
-      Hz: 50.02
-    }
+      U: 236.4603729248047,
+      I: 0,
+      P: 0,
+      EP: 0.12600000202655792,
+      Hz: 50.012210845947266,
+    },
   },
   {
-    time: '08:34',
+    time: 1660911399815,
     data: {
-      U: 11.89,
-      I: 1.42,
-      P: 20.34,
-      EP: 35.45,
-      Hz: 50.02
-    }
+      U: 236.4603729248047,
+      I: 0,
+      P: 0,
+      EP: 0.12600000202655792,
+      Hz: 50.012210845947266,
+    },
   },
   {
-    time: '08:37',
+    time: 1660911399815,
     data: {
-      U: 13.89,
-      I: 1.02,
-      P: 22.34,
-      EP: 37.45,
-      Hz: 49.92
-    }
+      U: 236.4603729248047,
+      I: 0,
+      P: 0,
+      EP: 0.12600000202655792,
+      Hz: 50.012210845947266,
+    },
   },
   {
-    time: '08:40',
+    time: 1660911399815,
     data: {
-      U: 12.89,
-      I: 1.92,
-      P: 20.34,
-      EP: 38.45,
-      Hz: 49.92
-    }
+      U: 236.4603729248047,
+      I: 0,
+      P: 0,
+      EP: 0.12600000202655792,
+      Hz: 50.012210845947266,
+    },
   },
   {
-    time: '08:43',
+    time: 1660911399815,
     data: {
-      U: 13.89,
-      I: 2.12,
-      P: 22.34,
-      EP: 42.45,
-      Hz: 50.12
-    }
-  }
+      U: 236.4603729248047,
+      I: 0,
+      P: 0,
+      EP: 0.12600000202655792,
+      Hz: 50.012210845947266,
+    },
+  },
+
 ]
 const agriculture = [
   {
-    time: '08:30',
+    time: 1660911399815,
     data: {
       Hum: 20.89,
       Temp: 21.22,
       Lux: 800.34,
       Co2: 7.45,
-      YHum: 50.02
-    }
+      YHum: 50.02,
+    },
   },
   {
-    time: '08:34',
+    time: 1660911399815,
     data: {
-      Hum: 22.89,
-      Temp: 26.22,
-      Lux: 650.34,
-      Co2: 5.45,
-      YHum: 53.02
-    }
+      Hum: 20.89,
+      Temp: 21.22,
+      Lux: 800.34,
+      Co2: 7.45,
+      YHum: 50.02,
+    },
   },
   {
-    time: '08:37',
+    time: 1660911399815,
     data: {
-      Hum: 24.89,
-      Temp: 28.22,
-      Lux: 700.34,
-      Co2: 3.45,
-      YHum: 55.02
-    }
+      Hum: 20.89,
+      Temp: 21.22,
+      Lux: 800.34,
+      Co2: 7.45,
+      YHum: 50.02,
+    },
   },
   {
-    time: '08:40',
+    time: 1660911399815,
     data: {
-      Hum: 22.89,
-      Temp: 25.22,
-      Lux: 400.34,
-      Co2: 5.45,
-      YHum: 50.02
-    }
+      Hum: 20.89,
+      Temp: 21.22,
+      Lux: 800.34,
+      Co2: 7.45,
+      YHum: 50.02,
+    },
   },
   {
-    time: '08:43',
+    time: 1660911399815,
     data: {
-      Hum: 23.89,
-      Temp: 25.22,
-      Lux: 500.34,
-      Co2: 5.45,
-      YHum: 51.02
-    }
-  }
+      Hum: 20.89,
+      Temp: 21.22,
+      Lux: 800.34,
+      Co2: 7.45,
+      YHum: 50.02,
+    },
+  },
 ]
 
 
+function defaultData(data) {
+  let dur = 180000 * data.length
+  const now = Date.now()
+  data.forEach(v => {
+    v.time = now - dur
+    dur -= 180000
+  })
+  return data
+}
+
 function formatMachine(data) {
-  data = machine
+  if (!data) {
+    data = defaultData(machine)
+  }
+
   const categories = []
   const ua = []
   const ub = []
@@ -188,6 +212,18 @@ function formatMachine(data) {
   const ep = []
 
   data.forEach(v => {
+    const date = new Date(v.time)
+    v.time = `${date.getHours()}:${date.getMinutes()}`
+    v.data.Ua = Number((v.data.Ua).toFixed(2))
+    v.data.Ub = Number((v.data.Ub).toFixed(2))
+    v.data.Uc = Number((v.data.Uc).toFixed(2))
+    v.data.Ia = Number((v.data.Ia * 20).toFixed(2))
+    v.data.Ib = Number((v.data.Ib * 20).toFixed(2))
+    v.data.Ic = Number((v.data.Ic * 20).toFixed(2))
+    v.data.EP = Number(((v.data.EP || v.data.Ep) * 20).toFixed(2))
+    v.data.P = Number((v.data.P * 20).toFixed(2))
+    v.data.Hz = Number((v.data.Hz).toFixed(2))
+
     categories.push(v.time)
     ua.push(v.data.Ua)
     ub.push(v.data.Ub)
@@ -226,13 +262,24 @@ function formatMachine(data) {
 }
 
 function formatRobot(data) {
-  data = robot
+  if (!data) {
+    data = defaultData(robot)
+  }
+
   const categories = []
   const u = []
   const i = []
   const ep = []
 
   data.forEach(v => {
+    const date = new Date(v.time)
+    v.time = `${date.getHours()}:${date.getMinutes()}`
+    v.data.U = Number(v.data.U.toFixed(2))
+    v.data.I = Number(v.data.I.toFixed(2))
+    v.data.EP = Number(v.data.EP.toFixed(2))
+    v.data.P = Number(v.data.P.toFixed(2))
+    v.data.Hz = Number(v.data.Hz.toFixed(2))
+
     categories.push(v.time)
     u.push(v.data.U)
     i.push(v.data.I)
@@ -267,12 +314,18 @@ function formatLighting(data) {
 }
 
 function formatAgriculture(data) {
-  data = agriculture
+  if (!data) {
+    data = defaultData(agriculture)
+  }
+
   const categories = []
   const h = []
   const t = []
 
   data.forEach(v => {
+    const date = new Date(v.time)
+    v.time = `${date.getHours()}:${date.getMinutes()}`
+
     categories.push(v.time)
     h.push(v.data.Hum)
     t.push(v.data.Temp)
@@ -297,14 +350,28 @@ function formatAgriculture(data) {
 
 
 function getUpLink(topic, cb, done) {
-  setTimeout(() => {
-    cb(null, {})
-    done()
-  }, 500)
+  wx.request({
+    url: `https://${getApp().globalData.server}/api/uplink?topic=${topic}`,
+    method: 'GET',
+    success: (res) => {
+      cb(null, res.data.data)
+    },
+    fail: (res) => {
+      cb(res.errMsg)
+    },
+    complete: done,
+  })
 }
 
 function setDownLink(topic, action, done) {
-  setTimeout(done, 500)
+  wx.request({
+    url: `https://${getApp().globalData.server}/api/downlink`,
+    method: 'POST',
+    data: { topic, action },
+    success: () => { },
+    fail: () => { },
+    complete: done,
+  })
 }
 
 module.exports = {
@@ -315,14 +382,3 @@ module.exports = {
   formatLighting,
   formatAgriculture
 }
-
-  // const url = `${getApp().globalData.server}/api/getUpLink`
-  // const data = { topic }
-  // rerturn wx.request({
-  //   url,
-  //   data,
-  //   method: 'POST',
-  //   success: (result) => { },
-  //   fail: (res) => { },
-  //   complete: (res) => { },
-  // })

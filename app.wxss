@@ -5,7 +5,7 @@ page {
   --gray9: #212529;
   --gray6: #868E96;
   --gray2: #E9ECEF;
-  background-color: #F1F3F5;
+  background-color: #FFFFFF;
 }
 
 .container {

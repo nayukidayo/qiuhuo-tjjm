@@ -10,7 +10,7 @@
   "window": {
     "navigationBarBackgroundColor": "#FFFFFF",
     "navigationBarTextStyle": "black",
-    "backgroundColor": "#F1F3F5",
+    "backgroundColor": "#FFFFFF",
     "backgroundTextStyle": "light"
   },
   "lazyCodeLoading": "requiredComponents",
