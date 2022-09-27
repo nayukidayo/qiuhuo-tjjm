@@ -1,27 +1,20 @@
 <!--pages/index/index.wxml-->
-<view class="container">
-  <text class="title">机床</text>
-  <view class="wrapper" bindtap="handleMachineTap">
-    <view class="cell" hover-class="cell-hover" hover-start-time="20" hover-stay-time="70" wx:for="{{machine}}" wx:key="label" data-index="{{index}}">
-      {{item.label}}
-    </view>
+<image class="img" mode="aspectFill" src="/images/beijing.jpg"></image>
+<view class="wrapper">
+  <view class="item">
+    <image mode="aspectFit" src="/images/chechuang.png" bindtap="handleMachineTap"></image>
+    <text>实训楼一楼</text><text>车床能耗监测</text>
   </view>
-  <text class="title">机器人</text>
-  <view class="wrapper" bindtap="handleRobotTap">
-    <view class="cell" hover-class="cell-hover" hover-start-time="20" hover-stay-time="70" wx:for="{{robot}}" wx:key="label" data-index="{{index}}">
-      {{item.label}}
-    </view>
+  <view class="item">
+    <image mode="aspectFit" src="/images/shukong.png" bindtap="handleRobotTap"></image>
+    <text>实训楼二楼</text><text>数控中心能耗管理</text>
   </view>
-  <text class="title">灯光</text>
-  <view class="wrapper" bindtap="handleLightingTap">
-    <view class="cell" hover-class="cell-hover" hover-start-time="20" hover-stay-time="70" wx:for="{{lighting}}" wx:key="label" data-index="{{index}}">
-      {{item.label}}
-    </view>
+  <view class="item">
+    <image mode="aspectFit" src="/images/dengguang.png" bindtap="handleLightingTap"></image>
+    <text>实训楼三楼</text><text>灯光能耗及控制</text>
   </view>
-  <text class="title">农业</text>
-  <view class="wrapper" bindtap="handleAgricultureTap">
-    <view class="cell" hover-class="cell-hover" hover-start-time="20" hover-stay-time="70" wx:for="{{agriculture}}" wx:key="label" data-index="{{index}}">
-      {{item.label}}
-    </view>
+  <view class="item">
+    <image mode="aspectFit" src="/images/wenshi.png" bindtap="handleAgricultureTap"></image>
+    <text>智慧温室</text>
   </view>
 </view>

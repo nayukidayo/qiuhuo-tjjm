@@ -1,0 +1,8 @@
+<!--pages/device/index.wxml-->
+<image class="img" mode="aspectFill" src="/images/beijing.jpg"></image>
+<view class="wrapper" bindtap="handleTap">
+  <view class="cell" wx:for="{{items}}" wx:key="name">
+    <image mode="aspectFit" src="{{item.img}}" data-index="{{index}}"></image>
+    <text>{{item.name}}</text>
+  </view>
+</view>

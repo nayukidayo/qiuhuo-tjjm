@@ -24,8 +24,8 @@
     <view class="cell">
       <view>状态控制</view>
       <view class="action">
-        <button type="default" size="mini" bindtap="handleStateOn">开</button>
-        <button type="warn" size="mini" bindtap="handleStateOff">关</button>
+        <button type="default" size="mini" hover-class="default-hover" hover-stay-time="1000" bindtap="handleStateOn">开</button>
+        <button type="warn" size="mini" hover-class="warn-hover" hover-stay-time="1000" bindtap="handleStateOff">关</button>
       </view>
     </view>
   </view>

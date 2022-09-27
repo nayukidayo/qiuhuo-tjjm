@@ -20,7 +20,7 @@ Page({
       return
     }
     wx.showLoading({ title: '加载中' })
-    wx.setNavigationBarTitle({ title: `农业 ${opts.label} 实时数据` })
+    wx.setNavigationBarTitle({ title: `${opts.label} 实时数据` })
     this.telemetry(opts.topic, () => {
       wx.hideLoading()
       this.setData({ topic: opts.topic })
@@ -60,6 +60,9 @@ Page({
 
   handleState(action) {
     wx.showLoading({ title: '执行中' })
-    setDownLink(this.data.topic, action, wx.hideLoading)
+    setDownLink(this.data.topic, action, () => {
+      wx.hideLoading()
+      wx.showToast({ title: '执行成功' })
+    })
   }
 })

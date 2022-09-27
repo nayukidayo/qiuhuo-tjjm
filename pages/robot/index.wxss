@@ -40,3 +40,11 @@
   display: flex;
   gap: 40rpx
 }
+
+.default-hover {
+  background-color: #52aa5f !important;
+}
+
+.warn-hover {
+  background-color: #e55e54 !important;
+}

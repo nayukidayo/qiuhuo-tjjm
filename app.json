@@ -5,7 +5,8 @@
     "pages/agriculture/index",
     "pages/lighting/index",
     "pages/robot/index",
-    "pages/machine/index"
+    "pages/machine/index",
+    "pages/device/index"
   ],
   "window": {
     "navigationBarBackgroundColor": "#FFFFFF",
