@@ -61,7 +61,7 @@ Page({
 
   handleState(action) {
     wx.showLoading({ title: '执行中' })
-    setDownLink(this.data.topic, action, () => {
+    setDownLink(this.data.topic.replace('p', 's'), action, () => {
       wx.hideLoading()
       wx.showToast({ title: '执行成功' })
     })
